@@ -46,7 +46,7 @@ img{
 
 /*------id and dom*/
 nav{width:350px; height: 350px;  margin: 100px auto; position: relative;
-  background-color: black;
+  background-color: none;
 }
 nav > ul{padding: 0; list-style: none;}
 nav>ul>button{
