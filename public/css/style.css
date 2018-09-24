@@ -1,1 +1,91 @@
+img{
+  width: 500px;
+  height: auto;
+}
+/*-------class--------*/
+.none{
+  display: none;
+}
 
+
+/*modal*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*------id and dom*/
+nav{width:350px; height: 350px;  margin: 100px auto; position: relative;
+  background-color: black;
+}
+nav > ul{padding: 0; list-style: none;}
+nav>ul>button{
+  position: absolute; width:5px;height: 15px;background-color: #FF9933;
+  border-radius: 50%;  
+}
+/*
+nav>ul>button>a {
+  display: block;width: 10px; height: 10px; color: #000;text-align: center; font-size: 5px;
+  line-height: 2.6; text-decoration:none;
+}*/
+nav>ul>button>a:hover{ color: #000;}
+a:active, a:focus, a:visited{outline: 0;}
+nav> ul >button:nth-child(1){left: 170px; top:50px; background-color: red;}
+nav> ul >button:nth-child(2){left: 70px; top:100px; background-color: cyan;}
+nav> ul >button:nth-child(3){ right:70px;top:100px; background-color: blueviolet;}
+nav> ul >button:nth-child(4){ right:50px;top:170px; background-color: voilet;}
+nav> ul >button:nth-child(5){ 
+  left:80px;top:80px; height: 200px; width: 200px;border: none; color: pink; 
+  }
+nav> ul >button:nth-child(6){left: 55px; top:170px; background-color:green;}
+nav> ul >button:nth-child(7){left: 80px; top:250px; background-color:brown;}
+nav> ul >button:nth-child(8){right: 80px; top:250px; background-color:cadetblue;}
+nav> ul >button:nth-child(9){left: 170px; top:290px; background-color:chartreuse;}
+.glyphicon-home{width: 110px;height: 110px;line-height: 2.3; font-size: 40px;
+color: #FF9933; background-color: #000; border-radius:50%; }
+
+nav>button{
+  position: absolute; width: 60px;height: 60px;background-color: #FF9933;
+  border-radius: 50%;  
+}
+nav >button:nth-child(1){left: 150px; top:-20px; background-color:red;}
+nav >button:nth-child(2){left: 20px; top:40px; background-color:cyan;}
+nav >button:nth-child(3){ right:20px;top:40px; background-color:blueviolet;}
+nav >button:nth-child(4){ right:-20px;top:150px; background-color:violet;}
+nav >button:nth-child(5){ 
+  left:80px;top:80px; height: 200px; width: 200px;border: none; color: pink; 
+  }
+nav >button:nth-child(6){left: -20px; top:150px; background-color:green;}
+nav >button:nth-child(7){left: 10px; top:250px; background-color:brown;}
+nav >button:nth-child(8){right: 10px; top:270px; background-color:cadetblue;}
+nav >button:nth-child(9){left: 150px; top:320px; background-color:chartreuse;}
